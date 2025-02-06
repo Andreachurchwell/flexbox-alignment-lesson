@@ -1,0 +1,49 @@
+* {
+    background-color: linen;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+    border: 2px solid salmon;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.flexContainer{
+    width: 50vw;
+    height: 40vh;
+    border: 2px solid salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexItem{
+    width: 75px;
+    height: 75px;
+    border: 2px solid salmon;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.flexContainer2{
+    width: 50vw;
+    height: 40vh;
+    border: 2px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexItem2{
+    width: 75px;
+    height: 75px;
+    border: 2px solid salmon;
+    margin: 20px;
+    padding: 20px;
+
+}

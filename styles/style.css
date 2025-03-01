@@ -14,8 +14,8 @@ img {
 }
 
 .flexContainer{
-    width: 50vw;
-    height: 40vh;
+    /* width: 60vw;
+    height: 40vh; */
     border: 2px solid salmon;
     display: flex;
     justify-content: center;
@@ -27,23 +27,30 @@ img {
     border: 2px solid salmon;
     margin: 20px;
     padding: 20px;
+    background-color: azure;
+    
 
 }
 
 .flexContainer2{
-    width: 50vw;
+    width: 60vw;
     height: 40vh;
     border: 2px solid salmon;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
     justify-content: center;
     align-items: center;
+   justify-self: center;
 }
+    
 .flexItem2{
     width: 75px;
     height: 75px;
     border: 2px solid salmon;
     margin: 20px;
     padding: 20px;
+    background-color: azure;
 
 }
+
